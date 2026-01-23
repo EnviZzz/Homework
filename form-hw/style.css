@@ -1,0 +1,26 @@
+fieldset {
+width: 200px;
+border-radius: 5px;
+}
+
+h3 {
+margin: 7px 0px;
+}
+
+textarea {
+    resize: vertical 100px;
+}
+.block, textarea, button{
+display: block;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 16px;
+    max-height: 100px;
+}
+
+button {
+cursor: pointer;
+}
+
