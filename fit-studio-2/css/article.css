@@ -1,0 +1,77 @@
+.article {
+    font-family: Ubuntu;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.article-title {
+    font-family: "Oswald", sans-serif;;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: var(--text-zagolovochnyy);
+    max-width: 596px;
+    margin-bottom: 40px;
+}
+
+.article-text-mb {
+    margin-bottom: 20px;
+}
+
+.article-text {
+    font-family: 'Ubuntu', sans-serif;;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--text-nabornyy);
+}
+
+.article-img, .article-video {
+    width: 100%;
+}
+
+.article-img {
+    margin: 80px auto;
+}
+
+.article-title-2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: var(--text-zagolovochnyy);
+    margin-bottom: 40px;
+    max-width: 596px;
+}
+
+.article-list {
+    margin: 20px auto 80px ;
+    padding-left: 14px;
+}
+
+.text-2 {
+    max-width: 744px;
+}
+
+.article-video {
+    margin-bottom: 40px;
+}
+
+.text-3 {
+    margin-bottom: 120px;
+}
