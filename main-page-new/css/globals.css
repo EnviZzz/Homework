@@ -13,10 +13,17 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 375px;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 a,
@@ -97,6 +104,15 @@ p {
   color: #858e8a;
 }
 
+.decor::before {
+  content: "";
+  position: absolute;
+  height: 48px;
+  width: calc(50% - 250px);
+  z-index: -1;
+  background: url(../content/decor-large-icon.svg) repeat-x;
+}
+
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible {
@@ -111,4 +127,44 @@ summary:focus-visible {
   line-height: 115%;
   text-transform: uppercase;
   color: #2c332f;
+}
+
+@media (width <= 992px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (width <= 768px) {
+  .container {
+    max-width: 576px;
+  }
+
+  .title-large {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .home-page .title-large {
+    max-width: inherit;
+    text-align: center;
+  }
+
+  .text-medium {
+    font-size: 22px;
+  }
+}
+
+@media (width <= 576px) {
+  .section {
+    margin-bottom: 80px;
+  }
+
+  .title-large {
+    font-size: 32px;
+  }
+
+  .text-medium {
+    font-size: 18px;
+  }
 }
