@@ -1,0 +1,10 @@
+:root {
+    /* font-family */
+    --font-family: "Inter", sans-serif;
+    --second-family: "Readex Pro", sans-serif;
+
+
+    --container-width: 1440px; 
+    --container-padding: 73px;
+    --padding-bottom: 28px;
+}

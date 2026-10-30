@@ -1,0 +1,50 @@
+.container {
+    width: min(var(--container-width), 100%);
+    margin: 0 auto;
+    padding: 0 var(--container-padding) 0;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 30px 0;
+}
+
+.header__list {
+    padding: 31px 285px;
+    display: flex;
+    gap: 33px;
+}
+
+.menu__link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.header__actions {
+    display: flex;
+    gap: 13px;
+    padding: 20px 0;
+}
+
+.header__actions-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    color:black;
+}
+
+.header__actions-icon {
+    stroke: black;
+    stroke-width: 2px;
+}
